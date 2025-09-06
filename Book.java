@@ -6,5 +6,9 @@ public class Book {
     private String title;
     private String author;
     private boolean isAvailable;
+
+    // Constructor
+    public Book (int id, String title , String author, boolean isAvailable) {
+        this.id = id;
     
 }
