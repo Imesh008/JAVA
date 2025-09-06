@@ -10,5 +10,5 @@ public class Book {
     // Constructor
     public Book (int id, String title , String author, boolean isAvailable) {
         this.id = id;
-    
+        this.title = title;
 }
