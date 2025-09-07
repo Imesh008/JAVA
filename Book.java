@@ -13,4 +13,9 @@ public class Book {
         this.title = title;
         this.author = author;
         this.isAvailable = isAvailable;
+    }
+
+    //Getters and setters
+    public int getID() {return id;}
+
 }
