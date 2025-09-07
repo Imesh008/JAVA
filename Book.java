@@ -18,6 +18,6 @@ public class Book {
     //Getters and setters
     public int getID() {return id;}
     public String getTitle() {return title;}
-    p
+    public String getAuthor() {return author;}
 
 }
