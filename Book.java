@@ -7,6 +7,7 @@ public class Book {
     private String author;
     private boolean isAvailable;
 
+
     // Constructor
     public Book (int id, String title , String author, boolean isAvailable) {
         this.id = id;
@@ -28,5 +29,6 @@ public class Book {
     //Method to display book information
     public void displayInfo(){
         System.out.println ("Book ID: " + id + ", Title: " + title + ", Author: " + author + ", Available: " + isAvailable);
+    }
     
 }
