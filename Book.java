@@ -25,4 +25,6 @@ public class Book {
         this.isAvailable = available;
     }
 
+    //Method to display book information
+
 }
