@@ -27,7 +27,8 @@ public class Book {
 
     //Method to display book information
     public void displayInfo(){
-        
+        System.out.println ("Book ID: " + id + ", Title: " + title + ", Author: " + author + ", Available: " + isAvailable);
+
     }
 
 }
