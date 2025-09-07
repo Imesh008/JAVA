@@ -26,5 +26,8 @@ public class Book {
     }
 
     //Method to display book information
+    public void displayInfo(){
+        
+    }
 
 }
