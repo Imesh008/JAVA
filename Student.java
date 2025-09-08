@@ -4,5 +4,9 @@ package models;
 public class Student {
     private int id;
     private String name;
+
+    // Constructor
+    public Student(int id, String name) {
+\    }
     
 }
