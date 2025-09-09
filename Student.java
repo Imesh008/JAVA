@@ -12,4 +12,5 @@ public class Student {
     }
     
     // Getters
+    public int getID() {return id;}
   }
