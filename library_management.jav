@@ -9,7 +9,10 @@ public class LibraryManagement{
     private ArrayList<Student> students;
 
     //constructor
-    public LibraryService (){}
+    public LibraryService (){
+        books = new ArrayList<>();
+        students = new ArrayList<>();
+    }
 
 
 
