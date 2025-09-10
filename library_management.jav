@@ -15,6 +15,9 @@ public class LibraryManagement{
     }
 
     //Add book to the library
+    public void addBook (Book book){
+        
+    }
 
 
 
