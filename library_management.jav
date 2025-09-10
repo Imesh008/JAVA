@@ -17,7 +17,7 @@ public class LibraryManagement{
     //Add book to the library
     public void addBook (Book book){
         books.add(book);
-
+        System.out.println("Book added: " + book.getTitle());
     }
 
 
