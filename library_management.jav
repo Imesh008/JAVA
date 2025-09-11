@@ -26,6 +26,11 @@ public class LibraryManagement{
         System.out.println("Student added: " + student.getName());
 
     }
+     
+    //Borrow a book
+    public vodi borrowBook (int book id, int studentId){
+        
+    }
 
 
 
