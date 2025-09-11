@@ -22,7 +22,9 @@ public class LibraryManagement{
 
     //add student to the library system
     public void addStudent (Student student ){
-        
+        students.add(student);
+        System.out.println("Student added: " + student.getName());
+
     }
 
 
