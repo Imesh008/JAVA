@@ -21,6 +21,10 @@ public class LibraryManagement{
     }
 
     //add student to the library system
+    public void addStudent (Student student ){
+        
+    }
+
 
 
 
