@@ -31,7 +31,7 @@ public class LibraryManagement{
     public vodi borrowBook (int book id, int studentId){
         Book book = findBook(bookId);
         if (book != null && book.isAvailable ()){
-            
+            book.setAvailable(false):;
         }
 
     }
