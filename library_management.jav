@@ -34,7 +34,7 @@ public class LibraryManagement{
             book.setAvailable(false):;
             System.out.println("Book borrowed: " + book.getTitle());
         }else{
-            System.out.println("Book not available or not found.");
+            System.out.println("Book not available ");
         }
 
     }
