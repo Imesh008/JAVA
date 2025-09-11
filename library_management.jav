@@ -32,6 +32,7 @@ public class LibraryManagement{
         Book book = findBook(bookId);
         if (book != null && book.isAvailable ()){
             book.setAvailable(false):;
+            System.out.println("Book borrowed: " + book.getTitle());
         }
 
     }
