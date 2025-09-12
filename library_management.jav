@@ -49,7 +49,9 @@ public class LibraryManagement{
         return null;
     }
     public void displayBooks(){
-        for 
+        for (Book book :book){
+            System.out.println(book);
+        } 
         
     }
 
