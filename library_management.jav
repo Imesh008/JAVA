@@ -42,7 +42,9 @@ public class LibraryManagement{
     //Find book by ID
     private Book findBook (int bookID){
         for (Book book : books){
-            if (book.getId() == bookID)
+            if (book.getId() == bookID){
+                return book;
+            }
         }
     }
 
