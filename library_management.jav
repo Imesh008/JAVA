@@ -40,7 +40,9 @@ public class LibraryManagement{
     }
 
     //Find book by ID
-    private Book findBook (int bookID){}
+    private Book findBook (int bookID){
+        for (Book book : books)
+    }
 
 
 
