@@ -7,6 +7,7 @@ public class Main {
         LibraryManagement library = new LibraryManagement();
 
         //Adding books
+        library.addBook(new Book(1, "1984", "George Orwell"));
     }
 
 }
