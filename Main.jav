@@ -11,6 +11,7 @@ public class Main {
         library.addBook(new Book(2, "To Kill a Mockingbird", "Harper Lee"));
 
         //Adding students
+        library.addStudent(new Student(1, "Alice"));
     }
 
 }
