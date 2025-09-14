@@ -25,6 +25,7 @@ public class Main {
 
         //Display all books again
         System.out.println("\nAll Books After Borrowing:");
+        library.displayBooks();
 
     }
 
