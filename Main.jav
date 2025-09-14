@@ -24,7 +24,8 @@ public class Main {
         library.borrowBook(1, 2); // Bob tries to borrow "1984" again
 
         //Display all books again
-        
+        System.out.println("\nAll Books After Borrowing:");
+
     }
 
 
