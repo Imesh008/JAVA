@@ -15,6 +15,7 @@ public class Main {
         library.addStudent(new Student(2, "Bob"));
 
         //Display all books
+        System.out.println("All Books:");
     }
 
 }
