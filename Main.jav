@@ -20,6 +20,7 @@ public class Main {
 
         //Borrow a book
         System.out.println("\nBorrowing Book :");
+        library.borrowBook(1, 1); // Alice borrows "1984"
     }
 
 }
