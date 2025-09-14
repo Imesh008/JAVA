@@ -22,6 +22,10 @@ public class Main {
         System.out.println("\nBorrowing Book :");
         library.borrowBook(1, 1); // Alice borrows "1984"
         library.borrowBook(1, 2); // Bob tries to borrow "1984" again
+
+        //Display all books again
+        
     }
+
 
 }
